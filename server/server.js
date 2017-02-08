@@ -12,6 +12,11 @@ io.on('connection', function (socket) {
   // Write your code here
 });
 
+io.on('SpecialMsg', function(socket) {
+    console.log("Oh My GOD!");
+});
+
+
 var serverPort = process.env.PORT || config.port;
 http.listen(serverPort, function() {
   console.log("Server is listening on port " + serverPort);

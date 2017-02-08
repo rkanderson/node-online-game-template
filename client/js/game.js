@@ -9,6 +9,7 @@ Game.prototype.handleNetwork = function(socket) {
 Game.prototype.handleLogic = function() {
   console.log('Game is running');
   // This is where you update your game logic
+  io.emit("SpecialMsg");
 }
 
 Game.prototype.handleGraphics = function(gfx) {
