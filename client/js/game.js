@@ -9,7 +9,6 @@ Game.prototype.handleNetwork = function(socket) {
 Game.prototype.handleLogic = function() {
   console.log('Game is running');
   // This is where you update your game logic
-  io.emit("SpecialMsg");
 }
 
 Game.prototype.handleGraphics = function(gfx) {
@@ -22,6 +21,6 @@ Game.prototype.handleGraphics = function(gfx) {
   gfx.font = 'bold 50px Verdana';
   gfx.textAlign = 'center';
   gfx.lineWidth = 2;
-  gfx.fillText('KAMEEEEEEH HAMEEEEH HAAAAAAAAAH! ', screenWidth / 2, screenHeight / 2);
+  gfx.fillText('All Hail Supreme Overlord Trump', screenWidth / 2, screenHeight / 2);
 //  gfx.strokeText('Now playing...', screenWidth / 2, screenHeight / 2);
 }
