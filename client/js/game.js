@@ -21,6 +21,10 @@ Game.prototype.handleGraphics = function(gfx) {
   gfx.font = 'bold 30px Monospace';
   gfx.textAlign = 'center';
   gfx.lineWidth = 2;
-  gfx.fillText('Nope it takes like 20 seconds for the server to apply the changes. How much space does it take up if I write a really long sentence. Hmmmmmm', screenWidth / 2, screenHeight / 2);
+  gfx.fillText('What can I do?', screenWidth / 2, screenHeight / 2);
+
+  gfx.fillStyle = '#5500ff';
+  gfx.fillRect(screenWidth/2, screenHeight/2+screenHeight*0.2, 100, 100);
+
 //  gfx.strokeText('Now playing...', screenWidth / 2, screenHeight / 2);
 }
