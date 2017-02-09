@@ -21,6 +21,6 @@ Game.prototype.handleGraphics = function(gfx) {
   gfx.font = 'bold 50px Verdana';
   gfx.textAlign = 'center';
   gfx.lineWidth = 2;
-  gfx.fillText('All Hail Supreme Overlord Trump', screenWidth / 2, screenHeight / 2);
+  gfx.fillText('I can instant message through git commits!', screenWidth / 2, screenHeight / 2);
 //  gfx.strokeText('Now playing...', screenWidth / 2, screenHeight / 2);
 }
